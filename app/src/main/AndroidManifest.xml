@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thailand">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.Incative_"></activity>
+        <activity android:name=".Admin.Order_history" />
+        <activity android:name=".Admin.Order_Details" />
+        <activity android:name=".Admin.Admin_All_Order" />
+        <activity android:name=".Admin.Driver_Details" />
+        <activity android:name=".Admin.InActive_List"
+            android:parentActivityName=".Admin.Admin_list"/>
+        <activity
+            android:name=".Admin.Active_list"
+            android:parentActivityName=".Admin.Admin_list" />
+        <activity android:name=".Admin.DriverList" />
+        <activity android:name=".Admin.Customer_list" />
+        <activity android:name=".Admin.Admin_list" />
+        <activity android:name=".Driver.Driver_profile" />
+        <activity
+            android:name=".Driver.Driver_order"
+            android:parentActivityName=".Driver.Driver_main" />
+        <activity
+            android:name=".Driver.Order_List"
+            android:parentActivityName=".Driver.Driver_main" />
+        <activity android:name=".Driver.Driver_main" />
+        <activity android:name=".Driver.Driver_reg" />
+        <activity android:name=".Driver.Driver_login" />
+        <activity
+            android:name=".User.Old_history"
+            android:parentActivityName=".User.User_main" />
+        <activity android:name=".User.Add_Order" />
+        <activity
+            android:name=".User.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".User.User_profile" />
+        <activity android:name=".User.User_main" />
+        <activity android:name=".User.User_reg" />
+        <activity android:name=".User.User_login" />
+        <activity android:name=".Three_content" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

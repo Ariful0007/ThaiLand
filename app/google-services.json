@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "337527781603",
+    "firebase_url": "https://thailand-9284c-default-rtdb.firebaseio.com",
+    "project_id": "thailand-9284c",
+    "storage_bucket": "thailand-9284c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337527781603:android:4bb0e4524d8ecd4b5c6dd6",
+        "android_client_info": {
+          "package_name": "com.example.thailand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337527781603-cq563kubjgu5cb9coiigb8kq4rivpgfj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thailand",
+            "certificate_hash": "f8e75969bdc1f63a21314592076c6266bf022b67"
+          }
+        },
+        {
+          "client_id": "337527781603-9tsojhrb6istrj8m5g3p05i1vpnsi4ml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9M_zJjyu2xgzypdkmUDO6AWyTaJN1Hdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337527781603-9tsojhrb6istrj8m5g3p05i1vpnsi4ml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
